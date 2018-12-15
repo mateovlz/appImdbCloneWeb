@@ -1,0 +1,73 @@
+<html>
+ <head>
+  <meta charset="UTF-8"></meta>
+  <title>Registrar Actor</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">﻿
+  <link rel="stylesheet" href="./Temp/styles.css" type="text/css">
+ </head>
+ <body>
+    <div class="contenedor">
+        <header>
+          <h1>Actualizar Actores</h1>
+       </header>
+       <section class="main">
+       	    <div class="data">
+            <form method="GET"action="Actormenu.php">
+              <h2>Actualizar Actor/Actriz</h2>
+              <input name="accion" type="hidden" value="8">
+              <input name="id" type="hidden" placeholder="Nombre" value="{id}">
+              <input name="Nom" type="text" placeholder="Nombre" value="{Nom}">
+              <input name="Ape" type="text"placeholder="Apellidos" value="{Ape}">
+              <input name="Fechana" type="date" placeholder="Fecha Nacimiento" value="{Fechana}">
+              <select name="Pais" class="epa">
+                <option value="{Pais}">{Pais}</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Alemania">Alemania</option>
+                <option value="Australia">Australia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Costa Rica">Costa Rica</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Peru">Peru</option>
+                <option value="Rusia">Rusia</option>
+                <option value="Venezuela">Venezuela</option>
+              </select>
+              <select name="Animal" class="epa">
+                <option value="{Animal}">{Animal}</option>
+                <option value="Aguila">Aguila</option>
+                <option value="Perro">Perro</option>
+                <option value="Gato">Gato</option>
+                <option value="Leon">Leon</option>
+                <option value="Tigre">Tigre</option>
+                <option value="Ganzo">Ganzo</option>
+                <option value="Canario">Canario</option>
+                <option value="Pavo">Pavo</option>
+                <option value="Cerdo">Cerdo</option>
+                <option value="Tortuga">Tortuga</option>
+                <option value="Tiburon">Tiburon</option>
+                <option value="Ardilla">Ardilla</option>
+                <option value="Oso">Oso</option>
+                <option value="Hamster">Hamster</option>
+                <option value="Jirafa">Jirafa</option>
+                <option value="Hipopotamo">Hipopotamo</option>
+              </select>
+              <select name="ViMu" class="epa">
+                <option value="{Vimu}">{Vimu}</option>
+                <option value="Vivo">Vivo</option>
+                <option value="Muerto">Muerto</option>
+              </select>
+              <input class="button" type="submit" value="Actualizar">
+            </form>
+            <br></br>
+          </div>
+        </section>
+        <aside>
+          <input onClick="window.location.href='index.php'" class="botones" type="submit" Value="Menu">
+        </aside>
+    </div>
+ </body>
+</html>

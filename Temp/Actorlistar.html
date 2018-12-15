@@ -1,0 +1,30 @@
+<html>
+ <head>
+  <meta charset="UTF-8"></meta>
+  <title>Listado Actores</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">﻿
+  <link rel="stylesheet" href="./Temp/styles.css" type="text/css">
+ </head>
+ <body>
+    <div>
+        <header>
+          <h1>Actores Registrados</h1>
+       </header>
+       <section class="main">
+         <div>
+           <table>
+              <thead>
+                  <tr>
+                    <th>Nombre</th><th>Apellidos</th><th>Nacimiento</th><th>Pais</th><th>Animal</th><th>Vivo/Muerto</th><th>Acciones</th>
+                  </tr>
+              </thead>
+                 {datos}
+           </table>
+        </div>
+         <br></br>
+           <button onClick="window.location.href='ActorMenu.php?accion=2'" class="botons">Registrar Actor</button>
+           <button onClick="window.location.href='index.php'" class="botons" href="index.php">Menu</button>
+        </section>
+    </div>
+ </body>
+</html>

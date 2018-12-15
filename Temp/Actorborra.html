@@ -1,0 +1,29 @@
+<html>
+ <head>
+  <meta charset="UTF-8"></meta>
+  <title>Borrar Actor</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">﻿
+  <link rel="stylesheet" href="./Temp/styles.css" type="text/css">
+ </head>
+ <body>
+    <div class="contenedor">
+        <header>
+          <h1>Borrar Actores</h1>
+       </header>
+       <section class="main">
+       	    <div class="data">
+            <form method="GET"action="Actormenu.php">
+              <h2>¿Esta Seguro de borrar permanentemente a "{id}"?</h2>
+              <input name="accion" type="hidden" value="7">
+              <input name="id" type="hidden" value="{id}">
+              <input class="button" type="submit" value="Borrar">
+            </form>
+            <br></br>
+          </div>
+        </section>
+        <aside>
+          <input onClick="window.location.href='index.php'" class="botones" type="submit" Value="Menu">
+        </aside>
+    </div>
+ </body>
+</html>

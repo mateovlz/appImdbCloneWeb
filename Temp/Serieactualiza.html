@@ -1,0 +1,42 @@
+<html>
+ <head>
+  <meta charset="UTF-8"></meta>
+  <title>Actualiza Serie</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">﻿
+  <link rel="stylesheet" href="./Temp/styles.css" type="text/css">
+ </head>
+ <body>
+    <div class="contenedor">
+        <header>
+          <h1>Actualizar Serie</h1>
+       </header>
+       <section class="main">
+       	    <div class="data">
+            <form method="GET"action="Seriemenu.php">
+              <h2>Actualiza Serie</h2>
+              <input name="accion" type="hidden" value="7">
+              <input name="id" type="hidden" value="{id}">
+              <input name="Nom" type="text" placeholder="Nombre" value="{Nom}">
+              <textarea class="inpu" name="Sinop" rows="10" cols="40" placeholder="Sinopsis" maxlength="580">{Sinop}</textarea>
+              <div>
+                 <label>Fecha Inicio:</label>
+                 <input name="Fechaini" type="date" placeholder="Fechaini" value="{Fechaini}">
+              </div>
+              <input class="epa" name="Tempo" type="number"placeholder="Temporadas" value="{Tempo}">
+              <input class="epa" name="Capit" type="number" placeholder="No Capitulos" value="{Capit}">
+              <select name="Actican" class="epa">
+                <option value="{Actican}">{Actican}</option>
+                <option value="Activa">Activa</option>
+                <option value="Cancelada">Cancelada</option>
+              </select>
+              <input class="button" type="submit" value="Actualizar">
+            </form>
+            <br></br>
+          </div>
+        </section>
+        <aside>
+          <input onClick="window.location.href='index.php'" class="botones" type="submit" Value="Menu">
+        </aside>
+    </div>
+ </body>
+</html>
