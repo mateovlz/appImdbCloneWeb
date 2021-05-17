@@ -1,13 +1,12 @@
-# Series y actores CRUD con Base de Datos
+# IMDB Clone (Series and Actors App)
 
 ## Introduction
 
-Es una aplicacion que ayuda a entender como funciona el model MVC (Modelo, Vista, Controlador) y fue creada para aprendizaje, la cual incluye POO (Programacion Orientada a Objetos) y Base de datos en MySQL.
-La app fue creada netamente en php puro.
+Application that helps to understand how the MVC (Model, View, Controller) model works, created for learning, which includes OOP (Object Oriented Programming), MySQL database, using pure php.
 
 ## Code Samples
 
-Podemos observar este trozo de codigo en el cual se controlan las opciones de la app y es donde se define que se va hacer en cada caso y todas estas opciones son metodos de la clase Actor.
+We can observe this piece of code in which the options of the app are controlled and it is where it is defined what is going to be done in each case and all these options are methods of the Actor class.
 
     $User = new Actor();
     switch ($_GET['accion']){
@@ -26,6 +25,6 @@ Podemos observar este trozo de codigo en el cual se controlan las opciones de la
       
 
 
-## Installation
+## Getting Started
 
-La aplicacion tal como se dijo fue hecha en php puro entonces solo necesitamos instalar un servidor web interno tales como (XAMMP o Uwamp ) el cual cuente con PHP , MySQL y apache para el buen funcionamiento de la app.
+The application only needs to have installed a web server (XAMMP or Uwamp) which has PHP, MySQL and apache for the proper functioning of the app.
